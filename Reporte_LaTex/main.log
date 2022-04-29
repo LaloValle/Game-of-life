@@ -1,0 +1,667 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022 - Flatpak) (preloaded format=pdflatex 2022.4.26)  29 APR 2022 15:57
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24>
+(/app/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(/app/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(/app/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/app/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/app/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/app/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count193
+\Gm@cntv=\count194
+\c@Gm@tempcnt=\count195
+\Gm@bindingoffset=\dimen139
+\Gm@wd@mp=\dimen140
+\Gm@odd@mp=\dimen141
+\Gm@even@mp=\dimen142
+\Gm@layoutwidth=\dimen143
+\Gm@layoutheight=\dimen144
+\Gm@layouthoffset=\dimen145
+\Gm@layoutvoffset=\dimen146
+\Gm@dimlist=\toks17
+)
+(/app/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/app/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(/app/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/app/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/app/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen147
+\Gin@req@width=\dimen148
+)
+(/app/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+(/app/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count196
+\lst@gtempboxa=\box50
+\lst@token=\toks18
+\lst@length=\count197
+\lst@currlwidth=\dimen149
+\lst@column=\count198
+\lst@pos=\count199
+\lst@lostspace=\dimen150
+\lst@width=\dimen151
+\lst@newlines=\count266
+\lst@lineno=\count267
+\lst@maxwidth=\dimen152
+
+(/app/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count268
+\lst@skipnumbers=\count269
+\lst@framebox=\box51
+)
+(/app/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+(/app/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2021/12/07 v1.3c Standard LaTeX Color (DPC)
+
+(/app/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+)
+(/app/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+(/app/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count270
+\l__pdf_internal_box=\box52
+) (./main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* bindingoffset: 17.07182pt
+* modes: 
+* h-part:(L,W,R)=(34.14322pt, 528.93674pt, 34.14322pt)
+* v-part:(T,H,B)=(34.14322pt, 718.14764pt, 42.67912pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=528.93674pt
+* \textheight=718.14764pt
+* \oddsidemargin=-21.05495pt
+* \evensidemargin=-38.12677pt
+* \topmargin=-75.12677pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/app/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count271
+\scratchdimen=\dimen153
+\scratchbox=\box53
+\nofMPsegments=\count272
+\nofMParguments=\count273
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count274
+\MPscratchDim=\dimen154
+\MPnumerator=\count275
+\makeMPintoPDFobject=\count276
+\everyMPtoPDFconversion=\toks20
+) (/app/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/app/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\c@lstlisting=\count277
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 36.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 36.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 36.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 48.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 48.
+ [1
+
+{/app/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
+
+ []
+
+[2] [3] [4]
+<Imagenes/Interfaz.png, id=24, 1059.96pt x 869.2475pt>
+File: Imagenes/Interfaz.png Graphic file (type png)
+<use Imagenes/Interfaz.png>
+Package pdftex.def Info: Imagenes/Interfaz.png  used on input line 157.
+(pdftex.def)             Requested size: 426.79134pt x 350.0007pt.
+<Imagenes/botones_correr.png, id=26, 157.58875pt x 56.21pt>
+File: Imagenes/botones_correr.png Graphic file (type png)
+<use Imagenes/botones_correr.png>
+Package pdftex.def Info: Imagenes/botones_correr.png  used on input line 173.
+(pdftex.def)             Requested size: 142.26378pt x 50.74634pt.
+ [5 <./Imagenes/Interfaz.png>]
+<Imagenes/botones_inferiores.png, id=31, 127.47626pt x 35.13126pt>
+File: Imagenes/botones_inferiores.png Graphic file (type png)
+<use Imagenes/botones_inferiores.png>
+Package pdftex.def Info: Imagenes/botones_inferiores.png  used on input line 18
+3.
+(pdftex.def)             Requested size: 142.26378pt x 39.2084pt.
+<Imagenes/botones_plots.png, id=32, 250.9375pt x 120.45pt>
+File: Imagenes/botones_plots.png Graphic file (type png)
+<use Imagenes/botones_plots.png>
+Package pdftex.def Info: Imagenes/botones_plots.png  used on input line 194.
+(pdftex.def)             Requested size: 142.26378pt x 68.28961pt.
+<Imagenes/textos_seccion_inferior.png, id=33, 414.54875pt x 25.09375pt>
+File: Imagenes/textos_seccion_inferior.png Graphic file (type png)
+<use Imagenes/textos_seccion_inferior.png>
+Package pdftex.def Info: Imagenes/textos_seccion_inferior.png  used on input li
+ne 204.
+(pdftex.def)             Requested size: 341.43306pt x 20.6685pt.
+<Imagenes/slider.png, id=34, 225.84375pt x 55.20625pt>
+File: Imagenes/slider.png Graphic file (type png)
+<use Imagenes/slider.png>
+Package pdftex.def Info: Imagenes/slider.png  used on input line 215.
+(pdftex.def)             Requested size: 227.62204pt x 55.64413pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[6 <./Imagenes/botones_correr.png> <./Imagenes/botones_inferiores.png> <./Image
+nes/botones_plots.png> <./Imagenes/textos_seccion_inferior.png>]
+<Imagenes/colores.png, id=42, 248.93pt x 105.39375pt>
+File: Imagenes/colores.png Graphic file (type png)
+<use Imagenes/colores.png>
+Package pdftex.def Info: Imagenes/colores.png  used on input line 231.
+(pdftex.def)             Requested size: 199.16928pt x 84.32796pt.
+<Imagenes/celulas_graficas.png, id=43, 112.42pt x 104.39pt>
+File: Imagenes/celulas_graficas.png Graphic file (type png)
+<use Imagenes/celulas_graficas.png>
+Package pdftex.def Info: Imagenes/celulas_graficas.png  used on input line 250.
+
+(pdftex.def)             Requested size: 113.81102pt x 105.68631pt.
+ [7 <./Imagenes/slider.png> <./Imagenes/colores.png> <./Imagenes/celulas_grafic
+as.png>]
+[8] [9] [10]
+<Imagenes/Configuracion_personalizada.png, id=61, 807.015pt x 829.0975pt>
+File: Imagenes/Configuracion_personalizada.png Graphic file (type png)
+<use Imagenes/Configuracion_personalizada.png>
+Package pdftex.def Info: Imagenes/Configuracion_personalizada.png  used on inpu
+t line 359.
+(pdftex.def)             Requested size: 227.62204pt x 233.8536pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 369--371
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 369--371
+
+ []
+
+<Imagenes/Ejemplo_configuracion_cargada.png, id=62, 903.375pt x 904.37875pt>
+File: Imagenes/Ejemplo_configuracion_cargada.png Graphic file (type png)
+<use Imagenes/Ejemplo_configuracion_cargada.png>
+Package pdftex.def Info: Imagenes/Ejemplo_configuracion_cargada.png  used on in
+put line 376.
+(pdftex.def)             Requested size: 199.16928pt x 199.39172pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[11 <./Imagenes/Configuracion_personalizada.png>] [12 <./Imagenes/Ejemplo_confi
+guracion_cargada.png>] [13]
+<Imagenes/Evolucion_100x100_0Gen.png, id=76, 907.39pt x 930.47626pt>
+File: Imagenes/Evolucion_100x100_0Gen.png Graphic file (type png)
+<use Imagenes/Evolucion_100x100_0Gen.png>
+Package pdftex.def Info: Imagenes/Evolucion_100x100_0Gen.png  used on input lin
+e 416.
+(pdftex.def)             Requested size: 312.9803pt x 320.94366pt.
+<Imagenes/Evolucion_100x100_50Gen.png, id=77, 908.39375pt x 931.48pt>
+File: Imagenes/Evolucion_100x100_50Gen.png Graphic file (type png)
+<use Imagenes/Evolucion_100x100_50Gen.png>
+Package pdftex.def Info: Imagenes/Evolucion_100x100_50Gen.png  used on input li
+ne 417.
+(pdftex.def)             Requested size: 312.9803pt x 320.93454pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--422
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--422
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--422
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--422
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--422
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--422
+
+ []
+
+[14
+
+ <./Imagenes/Evolucion_100x100_0Gen.png> <./Imagenes/Evolucion_100x100_50Gen.pn
+g>]
+<Imagenes/Evolucion_300x300_0Gen.png, id=83, 906.38625pt x 931.48pt>
+File: Imagenes/Evolucion_300x300_0Gen.png Graphic file (type png)
+<use Imagenes/Evolucion_300x300_0Gen.png>
+Package pdftex.def Info: Imagenes/Evolucion_300x300_0Gen.png  used on input lin
+e 434.
+(pdftex.def)             Requested size: 312.9803pt x 321.6452pt.
+<Imagenes/Evolucion_300x300_50Gen.png, id=84, 907.39pt x 933.4875pt>
+File: Imagenes/Evolucion_300x300_50Gen.png Graphic file (type png)
+<use Imagenes/Evolucion_300x300_50Gen.png>
+Package pdftex.def Info: Imagenes/Evolucion_300x300_50Gen.png  used on input li
+ne 435.
+(pdftex.def)             Requested size: 312.9803pt x 321.98232pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 424--440
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 424--440
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 424--440
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 424--440
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 424--440
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 424--440
+
+ []
+
+[15 <./Imagenes/Evolucion_300x300_0Gen.png> <./Imagenes/Evolucion_300x300_50Gen
+.png>]
+<Imagenes/Evolucion_500x500_0Gen.png, id=90, 1004.75375pt x 1029.8475pt>
+File: Imagenes/Evolucion_500x500_0Gen.png Graphic file (type png)
+<use Imagenes/Evolucion_500x500_0Gen.png>
+Package pdftex.def Info: Imagenes/Evolucion_500x500_0Gen.png  used on input lin
+e 452.
+(pdftex.def)             Requested size: 312.9803pt x 320.78941pt.
+<Imagenes/Evolucion_500x500_50Gen.png, id=91, 1004.75375pt x 1029.8475pt>
+File: Imagenes/Evolucion_500x500_50Gen.png Graphic file (type png)
+<use Imagenes/Evolucion_500x500_50Gen.png>
+Package pdftex.def Info: Imagenes/Evolucion_500x500_50Gen.png  used on input li
+ne 453.
+(pdftex.def)             Requested size: 312.9803pt x 320.78941pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 442--458
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 442--458
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 442--458
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 442--458
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 442--458
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 442--458
+
+ []
+
+[16 <./Imagenes/Evolucion_500x500_0Gen.png> <./Imagenes/Evolucion_500x500_50Gen
+.png>]
+<Imagenes/Evolucion_1000x1000_0Gen.png, id=97, 1004.75375pt x 1028.84375pt>
+File: Imagenes/Evolucion_1000x1000_0Gen.png Graphic file (type png)
+<use Imagenes/Evolucion_1000x1000_0Gen.png>
+Package pdftex.def Info: Imagenes/Evolucion_1000x1000_0Gen.png  used on input l
+ine 470.
+(pdftex.def)             Requested size: 312.9803pt x 320.47676pt.
+<Imagenes/Evolucion_1000x1000_50Gen.png, id=98, 1004.75375pt x 1029.8475pt>
+File: Imagenes/Evolucion_1000x1000_50Gen.png Graphic file (type png)
+<use Imagenes/Evolucion_1000x1000_50Gen.png>
+Package pdftex.def Info: Imagenes/Evolucion_1000x1000_50Gen.png  used on input 
+line 471.
+(pdftex.def)             Requested size: 312.9803pt x 320.78941pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 460--476
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 460--476
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 460--476
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 460--476
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 460--476
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 460--476
+
+ []
+
+[17 <./Imagenes/Evolucion_1000x1000_0Gen.png> <./Imagenes/Evolucion_1000x1000_5
+0Gen.png>]
+<Imagenes/Densidad_100x100_50Gen.png, id=104, 462.528pt x 346.896pt>
+File: Imagenes/Densidad_100x100_50Gen.png Graphic file (type png)
+<use Imagenes/Densidad_100x100_50Gen.png>
+Package pdftex.def Info: Imagenes/Densidad_100x100_50Gen.png  used on input lin
+e 491.
+(pdftex.def)             Requested size: 256.0748pt x 192.06375pt.
+<Imagenes/Densidad_300x300_50Gen.png, id=105, 462.528pt x 346.896pt>
+File: Imagenes/Densidad_300x300_50Gen.png Graphic file (type png)
+<use Imagenes/Densidad_300x300_50Gen.png>
+Package pdftex.def Info: Imagenes/Densidad_300x300_50Gen.png  used on input lin
+e 491.
+(pdftex.def)             Requested size: 256.0748pt x 192.06375pt.
+File: Imagenes/Densidad_100x100_50Gen.png Graphic file (type png)
+<use Imagenes/Densidad_100x100_50Gen.png>
+Package pdftex.def Info: Imagenes/Densidad_100x100_50Gen.png  used on input lin
+e 492.
+(pdftex.def)             Requested size: 256.0748pt x 192.06375pt.
+File: Imagenes/Densidad_300x300_50Gen.png Graphic file (type png)
+<use Imagenes/Densidad_300x300_50Gen.png>
+Package pdftex.def Info: Imagenes/Densidad_300x300_50Gen.png  used on input lin
+e 492.
+(pdftex.def)             Requested size: 256.0748pt x 192.06375pt.
+
+Overfull \hbox (7.21289pt too wide) in paragraph at lines 490--494
+ [][] 
+ []
+
+[18
+
+ <./Imagenes/Densidad_100x100_50Gen.png> <./Imagenes/Densidad_300x300_50Gen.png
+>]
+<Imagenes/Densidad_logaritmo_100x100_50Gen.png, id=111, 462.528pt x 346.896pt>
+File: Imagenes/Densidad_logaritmo_100x100_50Gen.png Graphic file (type png)
+<use Imagenes/Densidad_logaritmo_100x100_50Gen.png>
+Package pdftex.def Info: Imagenes/Densidad_logaritmo_100x100_50Gen.png  used on
+ input line 504.
+(pdftex.def)             Requested size: 256.0748pt x 192.06375pt.
+<Imagenes/Densidad_logaritmo_300x300_50Gen.png, id=112, 462.528pt x 346.896pt>
+File: Imagenes/Densidad_logaritmo_300x300_50Gen.png Graphic file (type png)
+<use Imagenes/Densidad_logaritmo_300x300_50Gen.png>
+Package pdftex.def Info: Imagenes/Densidad_logaritmo_300x300_50Gen.png  used on
+ input line 504.
+(pdftex.def)             Requested size: 256.0748pt x 192.06375pt.
+File: Imagenes/Densidad_logaritmo_100x100_50Gen.png Graphic file (type png)
+<use Imagenes/Densidad_logaritmo_100x100_50Gen.png>
+Package pdftex.def Info: Imagenes/Densidad_logaritmo_100x100_50Gen.png  used on
+ input line 505.
+(pdftex.def)             Requested size: 256.0748pt x 192.06375pt.
+File: Imagenes/Densidad_logaritmo_300x300_50Gen.png Graphic file (type png)
+<use Imagenes/Densidad_logaritmo_300x300_50Gen.png>
+Package pdftex.def Info: Imagenes/Densidad_logaritmo_300x300_50Gen.png  used on
+ input line 505.
+(pdftex.def)             Requested size: 256.0748pt x 192.06375pt.
+
+Overfull \hbox (7.21289pt too wide) in paragraph at lines 503--507
+ [][] 
+ []
+
+[19 <./Imagenes/Densidad_logaritmo_100x100_50Gen.png> <./Imagenes/Densidad_loga
+ritmo_300x300_50Gen.png>] [20]
+<Imagenes/Entropia_100x100_50Gen.png, id=123, 462.528pt x 346.896pt>
+File: Imagenes/Entropia_100x100_50Gen.png Graphic file (type png)
+<use Imagenes/Entropia_100x100_50Gen.png>
+Package pdftex.def Info: Imagenes/Entropia_100x100_50Gen.png  used on input lin
+e 545.
+(pdftex.def)             Requested size: 256.0748pt x 192.06375pt.
+<Imagenes/Entropia_300x300_50Gen.png, id=124, 462.528pt x 346.896pt>
+File: Imagenes/Entropia_300x300_50Gen.png Graphic file (type png)
+<use Imagenes/Entropia_300x300_50Gen.png>
+Package pdftex.def Info: Imagenes/Entropia_300x300_50Gen.png  used on input lin
+e 545.
+(pdftex.def)             Requested size: 256.0748pt x 192.06375pt.
+File: Imagenes/Entropia_100x100_50Gen.png Graphic file (type png)
+<use Imagenes/Entropia_100x100_50Gen.png>
+Package pdftex.def Info: Imagenes/Entropia_100x100_50Gen.png  used on input lin
+e 546.
+(pdftex.def)             Requested size: 256.0748pt x 192.06375pt.
+File: Imagenes/Entropia_300x300_50Gen.png Graphic file (type png)
+<use Imagenes/Entropia_300x300_50Gen.png>
+Package pdftex.def Info: Imagenes/Entropia_300x300_50Gen.png  used on input lin
+e 546.
+(pdftex.def)             Requested size: 256.0748pt x 192.06375pt.
+
+Overfull \hbox (7.21289pt too wide) in paragraph at lines 544--548
+ [][] 
+ []
+
+[21 <./Imagenes/Entropia_100x100_50Gen.png> <./Imagenes/Entropia_300x300_50Gen.
+png>]
+Overfull \hbox (5.0085pt too wide) in paragraph at lines 562--563
+[]\OT1/cmr/m/n/10 Una al-ter-na-tiva que re-sulto ser ^^Sutil, al menos ahor-ra
+ndo ci-c-los de proce-samiento en la eje-cuci^^Son de pro-ce-sos pertenecientes
+
+ []
+
+[22] (../Constant.py
+Overfull \hbox (53.33173pt too wide) in paragraph at lines 25--28
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+) [23] (../Layouts.py [24] [25] [26]
+Overfull \hbox (44.8265pt too wide) in paragraph at lines 204--205
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][]  
+ []
+
+
+Overfull \hbox (35.37662pt too wide) in paragraph at lines 212--213
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][]  
+ []
+
+[27] [28]) (../GraphicalComponents.py [29]
+Overfull \hbox (386.91269pt too wide) in paragraph at lines 49--50
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][]  
+ []
+
+[30] [31]
+Overfull \hbox (11.75189pt too wide) in paragraph at lines 170--172
+[][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+[32]
+Overfull \hbox (141.21555pt too wide) in paragraph at lines 190--191
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (11.75189pt too wide) in paragraph at lines 210--211
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+[33]) (../Graphics.py [34] [35] [36]) [37] (../CellularAutomaton.py [38]
+[39] [40] [41] [42]) [43]
+Overfull \hbox (51.99315pt too wide) in paragraph at lines 646--647
+ \OT1/cmr/bx/n/10 CU-D-A-Cel-lu-la-rAutoma-ton[] \OT1/cmr/m/n/10 Clase prin-ci-
+pal-mente us-ada como in-ter-faz de co-mu-ni-caci^^Son en-tre el nodo l^^Sogico
+(\OT1/cmr/bx/n/10 CellularAutomaton\OT1/cmr/m/n/10 )
+ []
+
+(../CUDACellularAutomaton.py [44] [45]
+Overfull \hbox (289.42343pt too wide) in paragraph at lines 155--156
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (147.67508pt too wide) in paragraph at lines 164--165
+[][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+) [46] (../main.py [47] [48]) [49] (./main.aux) ) 
+Here is how much of TeX's memory you used:
+ 4388 strings out of 478268
+ 68698 string characters out of 5847840
+ 683263 words of memory out of 5000000
+ 22546 multiletter control sequences out of 15000+600000
+ 474661 words of font info for 46 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 55i,13n,62p,1538b,1828s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/app/texlive/texmf-dist/fonts
+/enc/dvips/cm-super/cm-super-ts1.enc}</app/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmbx10.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmbx12.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
+></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></app/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></app/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr10.pfb></app/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr12.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr17.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pf
+b></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></app/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></app/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmtt9.pfb></app/texlive/texmf-dist/fonts/type
+1/public/cm-super/sfrm1000.pfb>
+Output written on main.pdf (49 pages, 952539 bytes).
+PDF statistics:
+ 279 PDF objects out of 1000 (max. 8388607)
+ 152 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 121 words of extra memory for PDF output out of 10000 (max. 10000000)
+
