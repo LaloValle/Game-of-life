@@ -191,11 +191,12 @@ class CellularAutomaton():
             self.space[:,:,1] -= self.space[:,:,1] # The second columns returns to zeros
         # GPU process
         else:
-            changed_cells = self.ca_gpu.next_generation()
+            changed_cells = copy(self.ca_gpu.next_generation())
             # Look for the cell changed so that it can be show in the interface
-            for y in range(self.dimensions[1]):
-                for x in range(1,self.dimensions[0]):
-                    if changed_cells[y+1,x+1] == 1: self.game_graphics.update_cell_status(True,(y,x),invert=True)
+            for y in range(1,self.dimensions[1]+1):
+                for x in range(1,self.dimensions[0]+1):
+                    if changed_cells[y,x] == 1:
+                        self.game_graphics.update_cell_status(True,(y-1,x-1),invert=True)
             # Updates the alive cells
             self.update_alive_cells(self.ca_gpu.get_alive_cells() - self.alive_cells)
     

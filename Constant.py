@@ -1,5 +1,5 @@
 import pygame
-from numpy import array
+from numpy import array, ubyte
 
 # Colors
 DARK_BLACK = (28,29,32)
@@ -40,3 +40,11 @@ MATRIX_BIN_TO_DEC = array([
 # Rules
 R_Life = (2, 3, 3, 3)
 R_2 = (7, 7, 2, 2)
+
+# Structures
+GLIDER = array(
+    [[0,1,0],
+     [0,0,1],
+     [1,1,1]],
+    ubyte
+)

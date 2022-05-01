@@ -79,6 +79,7 @@ class SideBar():
     DEAD_COLOR_INPUT = 9
     SAVE_BUTTON = 10
     UPLOAD_BUTTON = 11
+    GLIDER_BUTTON = 12
 
     def __init__(self,color_background:tuple,width:int=250,bottom_margin:int=0):
         # The only instance is the first created in the main
@@ -103,8 +104,10 @@ class SideBar():
         # Sections
         self.plot_section = Section(self.rectangle.x,180,self.rectangle.width,self.padding,'PLOTTING')
         self.colors_section = Section(self.rectangle.x,285+self.padding,self.rectangle.width,self.padding,'COLORS')
+        self.structures_section = Section(self.rectangle.x,390+self.padding,self.rectangle.width,self.padding,'STRUCTURES')
         self.graphical_elements.append(self.plot_section)
         self.graphical_elements.append(self.colors_section)
+        self.graphical_elements.append(self.structures_section)
         # Graphical sprites inside the bar
         self.graphical_sprites = pygame.sprite.Group()
         self.graphical_sprites.add(self.set_play_button())
@@ -119,6 +122,7 @@ class SideBar():
         self.graphical_sprites.add(self.set_dead_color_input())
         self.graphical_sprites.add(self.set_save_button())
         self.graphical_sprites.add(self.set_upload_button())
+        self.graphical_sprites.add(self.set_glider_button())
 
 
     def set_click_function(self,button,function):
@@ -232,6 +236,16 @@ class SideBar():
         y = self.rectangle.height - 2*radius - 2*self.padding
         
         return CircularButton(x,y,radius,image_size,border=False,image_path='./images/upload_w.png')
+
+    
+    def set_glider_button(self):
+        # Size of the button
+        radius = 30
+        image_size = 30
+        x = self.rectangle.x + self.padding
+        y = self.structures_section.header_rect.y + 30 + self.padding
+        
+        return CircularButton(x,y,radius,image_size,border=False,image_path='./images/glider_w.png')
 
     # Functions when colors of cells clicked
     def change_dead_cell_color(self):

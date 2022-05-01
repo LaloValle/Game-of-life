@@ -34,6 +34,7 @@ paused = True
 reset = False
 clear = False
 actual_zoom = 1.0
+game_graphics = None
 cellular_automaton = None
 second_start = 0
 
@@ -61,10 +62,14 @@ def slider_move():
 def plot_shannons_entropy():
     cellular_automaton.plot_shannons_entropy()
 
+def set_actual_structure_glider():
+    game_graphics.set_actual_structure(GLIDER)
+    print('>> Change in actual structure')
+
 def main():
     global paused,reset,clear
     global actual_zoom
-    global cellular_automaton
+    global cellular_automaton, game_graphics
     
     # Status variables
     done = False
@@ -103,6 +108,7 @@ def main():
     side_bar.set_click_function(SideBar.ENTROPY_BUTTON,cellular_automaton.plot_shannons_entropy)
     side_bar.set_click_function(SideBar.SAVE_BUTTON,cellular_automaton.save_evolution_space)
     side_bar.set_click_function(SideBar.UPLOAD_BUTTON,cellular_automaton.upload_evolution_space)
+    side_bar.set_click_function(SideBar.GLIDER_BUTTON,set_actual_structure_glider)
     # Bottom bar space dimension and zoom
     bottom_bar.update_space_dimension_zoom(GRID_SIDE_ELEMENTS,actual_zoom)
 

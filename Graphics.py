@@ -31,6 +31,8 @@ class GameGraphics():
         # Mouse button states
         self.click_pressed = False
         self.changed_cells = []
+        self.actual_structure = array([]) # Array for placing pre-defined structures in the evolution space
+        self.structure_just_printed = False
 
         # Logical Game of Life instance
         self.cellular_automaton = None
@@ -72,8 +74,12 @@ class GameGraphics():
             elif event.type == pygame.MOUSEBUTTONUP:
                 if event.button == 1: # Left click
                     self.click_pressed = False
+                    self.structure_just_printed = False
                     # The 'status_changed_click' variable in the cells returns to False
                     while self.changed_cells: self.changed_cells.pop().status_changed_click = False
+                if event.button == 3: # Right click
+                    if self.actual_structure.size: # There's an structure waiting to be located in the evolution space
+                        self.actual_structure = np.rot90(self.actual_structure)
             if event.type == pygame.MOUSEWHEEL:
                 print(event)
             # Looks for key press
@@ -152,14 +158,35 @@ class GameGraphics():
 
     def change_cells_status(self):
         for cell in pygame.sprite.spritecollide(self.pointer, self.group_cells, False):
-            if cell.change_status():
-                self.changed_cells.append(cell)
-                # The kill/born of the cell get's also changed in the logic
-                self.cellular_automaton.change_cell(cell.index,cell.alive)
+            # If there's an structure then it's printed
+            if self.actual_structure.size:
+                self.print_structure(cell.index)
+            # If the cell changed it's status
+            if not self.structure_just_printed:
+                if cell.change_status():
+                    self.changed_cells.append(cell)
+                    # The kill/born of the cell get's also changed in the logic
+                    self.cellular_automaton.change_cell(cell.index,cell.alive)
+
+    def print_structure(self,index_start_cell):
+        if index_start_cell[0] <= (self.grid.num_cols - 2):
+            print('Index:',index_start_cell, self.grid.num_cols)
+            for row in range(3):
+                for column in range(3):
+                    new_status = bool(self.actual_structure[row,column])
+                    aux_cell = self.cells[(row+index_start_cell[1]-1)*self.grid.num_cols+index_start_cell[0]-1+column]
+                    aux_cell.alive = new_status
+                    aux_cell.update()
+                    if new_status: self.cellular_automaton.change_cell(aux_cell.index,True)
+                    self.structure_just_printed = True
+        self.actual_structure = np.array([])
 
     # External communications methods
     def set_cellular_automaton(self,cellular_automaton):
         self.cellular_automaton = cellular_automaton
+    
+    def set_actual_structure(self,structure):
+        self.actual_structure = np.copy(structure)
 
     def get_cells(self):
         return self.cells
